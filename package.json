@@ -1,0 +1,15 @@
+{
+  "name": "falcon-guard",
+  "version": "1.0.0",
+  "description": "Falcon Guard - Arabic Discord security bot",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
